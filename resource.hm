@@ -1,0 +1,4 @@
+// Microsoft Developer Studio generated Help ID include file.
+// Used by StayON.rc
+//
+#define HIDC_EDTSECCNT                  0x806603ef    // IDD_STAYON_DIALOG

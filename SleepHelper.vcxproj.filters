@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{d0101f8e-a51c-4099-a2f6-b46382b8e772}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Source Files\sqlite No. 1">
+      <UniqueIdentifier>{50d68527-62c0-4bad-9a46-9c4690286b95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gui No. 1">
+      <UniqueIdentifier>{7cb2ea34-b18c-4023-b856-622d4df2f0cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{a762c1fe-2ccf-4168-bfb1-094562c2fb24}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Header Files\sqlite">
+      <UniqueIdentifier>{e81a7d87-e466-43b0-9431-7c40f29902d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gui">
+      <UniqueIdentifier>{8c855f00-ad8f-41cf-9482-b9781ed4d33b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{afa2fcad-ce0f-4a01-b048-a1854d99949f}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="sqlite\base64.cpp">
+      <Filter>Source Files\sqlite No. 1</Filter>
+    </ClCompile>
+    <ClCompile Include="sqlite\CppSQLite3.cpp">
+      <Filter>Source Files\sqlite No. 1</Filter>
+    </ClCompile>
+    <ClCompile Include="sqlite\Qstring.cpp">
+      <Filter>Source Files\sqlite No. 1</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\HyperLink.cpp">
+      <Filter>Source Files\gui No. 1</Filter>
+    </ClCompile>
+    <ClCompile Include="EasyPlayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SleepHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SleepHelperDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SleepHelper.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="sqlite\base64.h">
+      <Filter>Header Files\sqlite</Filter>
+    </ClInclude>
+    <ClInclude Include="sqlite\CppSQLite3.h">
+      <Filter>Header Files\sqlite</Filter>
+    </ClInclude>
+    <ClInclude Include="sqlite\Qstring.h">
+      <Filter>Header Files\sqlite</Filter>
+    </ClInclude>
+    <ClInclude Include="sqlite\sqlite3.h">
+      <Filter>Header Files\sqlite</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\HyperLink.h">
+      <Filter>Header Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="EasyPlayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="htmlhelp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SleepHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SleepHelperDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\bmp00001.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\gradient.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ico00001.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon10.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon11.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon12.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon13.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon14.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon15.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon16.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon2.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon22.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon3.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon4.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon5.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon6.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon7.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon8.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon9.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\images_n.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\SleepHelper.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="res\SleepHelper.rc2">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

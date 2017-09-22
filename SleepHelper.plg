@@ -1,0 +1,63 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: SleepHelper - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/SleepHelper.res" /d "NDEBUG" "G:\edu\a_PC_Software\others_soft\ÀØ√ﬂ÷˙ ÷\SleepHelper.rc"" 
+Creating temporary file "C:\Users\NETXIA~1\AppData\Local\Temp\RSP6D8C.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Release/" /Fp"Release/SleepHelper.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"G:\edu\a_PC_Software\others_soft\ÀØ√ﬂ÷˙ ÷\sqlite\base64.cpp"
+"G:\edu\a_PC_Software\others_soft\ÀØ√ﬂ÷˙ ÷\sqlite\CppSQLite3.cpp"
+"G:\edu\a_PC_Software\others_soft\ÀØ√ﬂ÷˙ ÷\sqlite\Qstring.cpp"
+"G:\edu\a_PC_Software\others_soft\ÀØ√ﬂ÷˙ ÷\gui\HyperLink.cpp"
+"G:\edu\a_PC_Software\others_soft\ÀØ√ﬂ÷˙ ÷\EasyPlayer.cpp"
+"G:\edu\a_PC_Software\others_soft\ÀØ√ﬂ÷˙ ÷\SleepHelper.cpp"
+"G:\edu\a_PC_Software\others_soft\ÀØ√ﬂ÷˙ ÷\SleepHelperDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\NETXIA~1\AppData\Local\Temp\RSP6D8C.tmp" 
+Creating temporary file "C:\Users\NETXIA~1\AppData\Local\Temp\RSP6D8D.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Release/" /Fp"Release/SleepHelper.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"G:\edu\a_PC_Software\others_soft\ÀØ√ﬂ÷˙ ÷\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\NETXIA~1\AppData\Local\Temp\RSP6D8D.tmp" 
+Creating temporary file "C:\Users\NETXIA~1\AppData\Local\Temp\RSP6D8E.tmp" with contents
+[
+sqlite3.lib winmm.lib htmlhelp.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/SleepHelper.pdb" /machine:I386 /out:"Release/SleepHelper.exe" 
+".\Release\base64.obj"
+".\Release\CppSQLite3.obj"
+".\Release\Qstring.obj"
+".\Release\HyperLink.obj"
+".\Release\EasyPlayer.obj"
+".\Release\SleepHelper.obj"
+".\Release\SleepHelperDlg.obj"
+".\Release\StdAfx.obj"
+".\Release\SleepHelper.res"
+]
+Creating command line "link.exe @C:\Users\NETXIA~1\AppData\Local\Temp\RSP6D8E.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+base64.cpp
+CppSQLite3.cpp
+Qstring.cpp
+HyperLink.cpp
+EasyPlayer.cpp
+SleepHelper.cpp
+SleepHelperDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+SleepHelper.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
